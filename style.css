@@ -18,13 +18,13 @@ h1 {
   font-size: 96px;
 }
 
-h2 {
-  font-size: 48px;
-}
-
 h3 {
   font-size: 24px;
   opacity: 0.7;
+}
+
+h2 {
+  font-size: 48px;
 }
 
 p {
@@ -49,6 +49,9 @@ p {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  color: white;
+}
+.primary-link:hover {
   color: white;
 }
 
@@ -85,4 +88,24 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
