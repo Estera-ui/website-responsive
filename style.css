@@ -1,11 +1,12 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #56bcdb;
+  --secondary-color: #9cf5e1;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
+  background: linear-gradient(-225deg, #b5f0e2 0%, #e9dcf0 48%, #b3aaf7 100%);
 }
 
 h1,
@@ -16,6 +17,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  text-shadow: 5px 5px 10px rgba(47, 41, 47, 0.4);
 }
 
 h3 {
