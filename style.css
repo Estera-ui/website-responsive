@@ -1,12 +1,12 @@
 :root {
-  --primary-color: #034786;
-  --secondary-color: #9cf5e1;
+  --primary-color: #448eee;
+  --secondary-color: #d2f7ef;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
-  background: linear-gradient(-225deg, #b5f0e2 0%, #e9dcf0 48%, #b3aaf7 100%);
+  background: linear-gradient(-225deg, #edcef7 0%, #edcef7 0%, #edcef7 100%);
 }
 
 h1,
@@ -34,6 +34,11 @@ p {
   line-height: 1.5;
 }
 
+.modern {
+  background-color: #e7d7f7;
+  text-align: center;
+  padding: 160px 20px;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
