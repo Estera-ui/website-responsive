@@ -16,7 +16,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
   text-shadow: 5px 5px 10px rgba(47, 41, 47, 0.4);
 }
 
@@ -26,6 +26,10 @@ h3 {
 }
 
 h2 {
+  font-size: 48px;
+}
+
+h4 {
   font-size: 48px;
 }
 
@@ -81,6 +85,7 @@ nav li.active a {
 .content {
   text-align: center;
   padding: 0;
+  margin: 30px;
 }
 
 .content-container {
@@ -104,8 +109,8 @@ nav li.active a {
   font-size: 14px;
 }
 
-.content {
-  margin: 30px;
+.content a {
+  text-decoration: none;
 }
 
 .navigation-links {
@@ -165,6 +170,44 @@ nav li.active a {
 .email-link:hover {
   text-decoration: underline;
 }
+
+footer .email-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  padding: 30px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #ffffff;
+  background: var(--primary-color);
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
@@ -175,10 +218,22 @@ nav li.active a {
     font-size: 36px;
     text-align: center;
   }
+  h4 {
+    font-size: 26px;
+  }
+
   p {
     text-align: center;
   }
 
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
   .project-link {
     display: block;
     text-align: center;
